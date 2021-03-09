@@ -5,9 +5,9 @@
 }
 
 .favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
     width: 250px;
     height: 250px;
-    background-image: url(../img/favourites/indonesia.png);
     background-position: center;
     border: 5px solid white;
     flex: 30%;
@@ -18,9 +18,9 @@
   }
   
   .favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
     width: 250px;
     height: 250px;
-    background-image: url(../img/favourites/australia.png);
     background-position: center;
     border: 5px solid white;
     flex: 30%;
@@ -31,9 +31,9 @@
   }
   
   .favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
     width: 250px;
     height: 250px;
-    background-image: url(../img/favourites/switzerland.png);
     background-position: center;
     border: 5px solid white;
     flex: 30%;

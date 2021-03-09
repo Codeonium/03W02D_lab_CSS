@@ -1,0 +1,52 @@
+.popular {
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+    grid-area: popular;
+}
+.imagB {
+    background-image: url(../img/destination/brazil.png);
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    border: 5px solid white;
+    flex: 30%;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Redressed', cursive;
+    position: inherit;
+    grid-area: B;
+}
+.imagA {
+    background-image: url(../img/destination/america.png);
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    border: 5px solid white;
+    flex: 30%;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Redressed', cursive;
+    position: inherit;
+    grid-area: A;
+}
+.imagI {
+    background-image: url(../img/destination/italy.png);
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    border: 5px solid white;
+    flex: 30%;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Redressed', cursive;
+    position: inherit;
+    grid-area: I;
+}
+
+#grid_container {
+    display: grid;
+    grid-template-areas:
+        "popular popular popular"
+        "B A I ";
+}
